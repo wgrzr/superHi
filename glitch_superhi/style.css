@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'fontlabregular';
+  src: url('/assets/fontlab-webfont.woff2') format('woff2'),
+    url('/assets/fontlab-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: 'fontlabregular', monospace;
+  position: fixed;
+  top: 0;
+  left: 2em;
+  mix-blend-mode: difference;
+}
+
+canvas {
+  vertical-align: bottom;
+}
+
